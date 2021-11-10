@@ -16,3 +16,9 @@ Performance:
 Much stronger than Golang / almost all AI on phone.
 
 Weaker than pela
+
+What to update in next version:
+
+1.better evalution
+
+2.VCT,VCF
