@@ -1,24 +1,20 @@
 # BitGomo
-A gomoku AI using PVS(Principle Variation Search),Alphabeta,NullMovePruning and Bitboard tech.
+一个使用了PVS,alphabeta剪枝,空着裁剪和最先进的位棋盘技术的五子棋AI
 
-Now Version:0.1
+1.1版本新更新内容：
 
-Calculate speed:
+1.冲棋延伸
 
-Depth 7: Immediately
+2.更精准的算杀
 
-Depth 9: Within 2 seconds
+3.重写位棋盘，评估算法，提升速度
 
-Depth 11: 20 - 30 seconds
+目前棋力：与著名专业引擎pela相当
 
-Performance:
+目前搜索速度：
 
-Much stronger than Golang / almost all AI on phone.
+11层：15秒以内
+13层：一分钟以内
 
-Weaker than pela
-
-What to update in next version:
-
-1.better evalution
-
-2.VCT,VCF
+下次会更新的内容：
+更快的速度，Zobrist缓存表，更精准的评分表
